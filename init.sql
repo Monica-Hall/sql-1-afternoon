@@ -125,7 +125,7 @@ SELECT * FROM artist WHERE name LIKE '%Black%';
 
 
 
--- ---------------------------- Invoice ------------------------------
+-- ---------------------------- Employee ------------------------------
 
 -- 1. List all employee first and last names only that live in Calgary.
 SELECT first_name, last_name FROM employee WHERE city = 'Calgary';
@@ -145,7 +145,7 @@ SELECT COUNT(*) FROM employee WHERE city = 'Lethbridge';
 
 
 
--- ---------------------------- ARTIST ------------------------------
+-- ---------------------------- INVOICE ------------------------------
 
 -- 1. Count how many orders were made from the USA.
 SELECT COUNT(*) FROM invoice WHERE billing_country = 'USA';
